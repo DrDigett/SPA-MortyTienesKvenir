@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
  //Aquí se encuentra toda la configuración de lo que va a suceder. Modulo para exportar.
 module.exports = { 
-    entry: '.src/index.js', //Punto de entrada con su dirección.Aquí vive el código inicial y de aquí parte al desarrollo.
+    entry: './src/index.js', //Punto de entrada con su dirección.Aquí vive el código inicial y de aquí parte al desarrollo.
     output: {
         path: path.resolve(__dirname, 'dist'),  //Creamos el lugar dónde se exportará el proyecto.
         

@@ -4,7 +4,8 @@
   "description": "single page application de \"Rick y Morty\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [
     "javascript"

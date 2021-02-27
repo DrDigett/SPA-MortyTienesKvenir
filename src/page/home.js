@@ -1,5 +1,5 @@
 const Home = () =>{
-    const view =  `
+    const view = /*html*/`
         <div class="Characters">
             <article class="Character-item">
             </a href="#/1/">

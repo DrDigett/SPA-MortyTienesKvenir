@@ -20,7 +20,7 @@ module.exports = {
         rules: [
             {   
                 //Nos permite identificar los archivos según se encuentran en nuestro entorno.
-                test: /\,js?$/,
+                test: /\.js?$/,
                 
                 //Excluimos la carpeta de node modules
                 exclude: /node_modules/,    
@@ -32,7 +32,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin([    //Permite trabajar con los archivos HTML
+        new HtmlWebpackPlugin(  //Permite trabajar con los archivos HTML
             {
                 //Cómo vamos a inyectar un valor a un archivo HTML.
                 inject: true,
@@ -43,6 +43,6 @@ module.exports = {
                 //El nombre que tendrá el archivo
                 filename: './index.html'
             }
-        ])
+        ),
     ]
 }

@@ -16,7 +16,11 @@ body {
 
 .Header a {
   text-decoration: none;
-  color: #15302C;
+  color: #034252;
+}
+
+.About a{
+  color: #066780;
 }
 
 .Main {
@@ -102,6 +106,28 @@ body {
   color: #3c484e;
   text-decoration: none;
 }
+.Footer-pages{
+  margin-top: 50px;
+}
+.Footer-pages h4{
+  display: flex;
+
+  justify-content: center;
+
+}
+.Footer-pages a{
+  border: 1px solid #026C86;
+  text-decoration: none;
+  color: #3c484e;
+  padding: 5px;
+  margin: 0 2px;
+}
+
+.Footer-pages a:hover{
+  background-color: #3c484e;
+  color: #f3f3f3;
+}
+
 
 @keyframes fade {
   from {

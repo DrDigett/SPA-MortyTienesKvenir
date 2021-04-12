@@ -7,7 +7,7 @@ const Home = async () => {
   const characters = await getData(page);
   const view = `
   <section class="About">
-    <span>Datos extraidos de <a href="https://rickandmortyapi.com/">Rick and Morty API</a></span>
+    <p>Personajes de Rick y Morty:</p>
   </section>
   <div class="Characters">
     ${characters.results
